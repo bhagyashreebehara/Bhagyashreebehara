@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<style>
+  .navbar-brand h1{
+    font-style: italic;
+    background-color: brown;
+    text-shadow: 3px 3px #132221;
+  }
+  .navbar-brand h1:hover{
+    color: wheat;
+  }
+  #nav{
+      background-position: center;
+      background-size: cover;
+      transition: 0.7s;
+      position: relative;
+      cursor: pointer;
+      border-radius: 5px;
+      padding: 2%;
+      box-shadow: o 4px 6px -1px  brown;
+    }
+    #nav:hover{
+      transform:scale(1.1);
+    }
+</style>
+<body>
+<!----navbar starts-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#" id="nav"><h1>ORGANIC</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home"><h4>Home</h4></a>
+              </li>
+                 <a class="nav-link" href="aboutpage.html"><h4>About</h4></a>
+              </li>
+              <a class="nav-link" href="products.html"><h4>Products</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Service.html"><h4>Service</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html"><h4>Contact</h4></a>
+               </li> 
+               <li class="nav-item"></li>
+             </ul>
+        </div>              
+        </div>
+      </nav>
+    <!------navbar ends-->
+      <div class="row">
+        <div class="col-sm-4" style="background-color: wheat; height: 600px;">
+            <h2>Go Organic</h2>
+            <br>
+            <br>
+            <h5 text-align="center" style="font-style: italic;">Organic food
+                Foods produced without synthetic pesticides and chemical fertilizers</h5>
+                <br>
+                <br>
+                <input type="checkbox"> Organic foods are nutricious 
+                <br>
+                <input type="checkbox"> They are healthy
+                <br>
+                <input type="checkbox"> It contains antioxidants
+                <br>
+                <input type="checkbox"> It has a good quality 
+                <br>
+                <input type="checkbox"> It contains high nutruients
+                <br>
+                <input type="checkbox"> Improved Health. 
+                <br>
+                <input type="checkbox"> Preparing meals using organic ingredients ensures 
+                                        that there are no harmful chemicals present in the 
+                                        produce and ingredients used. 
+                <br>
+                <input type="checkbox"> Environmental Sustainability. ...
+                <br>
+                <input type="checkbox"> Support for Local Farmers. ...
+                <br>
+                <input type="checkbox"> Cost-Effectiveness.
+
+                <br><br>
+                <button class="button">To know more</button>
+        </div>
+        <div class="col-sm-8" style="background-color: wheat; height: 600px;">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" style="padding: 12%; padding-left: 3%;">
+                    <img src="https://st.depositphotos.com/1015060/2780/i/380/depositphotos_27804177-stock-photo-organic-market-fruits-and-vegetables.jpg" alt="" height="400" width="800">
+                  </div>
+                  <div class="carousel-item" style="padding: 12%; padding-left: 3%;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGX3B5D6OMrBtMMpRLeKEwMV1dEGUEq_ML1Eri7HgBd6iOUiUfJii43RbKC_ztI4As1M&usqp=CAU" alt="" height="400" width="800">
+                  </div>
+                  <div class="carousel-item" style="padding: 12%; padding-left: 3%;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJcLAthZY1GGS8Hsm_EWnvW8lK6_o5hv8MQ&s" alt="" height="400" width="800">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 pic">
+          <img src="https://templates.energeticthemes.com/oganic/wp-content/uploads/sites/15/2021/01/farmer-standing-in-a-field-harvesting-purple-beans-Z4JC2PH-1024x683.jpg" alt="" width="600px" height="800px">
+
+        </div>        
+        <div class="col-sm-6">
+              <img src="file:///C:/Users/DT011/Downloads/Oganic%20-%20Organic%20Food%20Elementor%20Template%20kit%20Preview%20-%20ThemeForest_files/31-pdbjjzpmsu9e8v27o6503i4qkw5innwigyjoa5fqbk.png" alt="" height="80px" width="60px">
+               <h1>Eat clean and green</h1>                                                                                                                                      
+               <p>Avoid frying, boiling and smothering your food. 
+                Also, fresh and frozen fruits and vegetables are preferred </p>
+          <br>
+          <br>
+          <img src="file:///C:/Users/DT011/Downloads/Oganic%20-%20Organic%20Food%20Elementor%20Template%20kit%20Preview%20-%20ThemeForest_files/32-pdbk57wf55bifu86pugownahj5ixhl6ae0xfg3ynsw.png" alt="" height="80px" width="60px">
+           <h1>Grown by Nature</h1>
+          <p>the only organic, non-GMO, wholefood supplement backed by multiple peer-reviewed studies.
+             It has proven to be better</p>
+          <br>
+          <br>
+          <img src="file:///C:/Users/DT011/Downloads/Oganic%20-%20Organic%20Food%20Elementor%20Template%20kit%20Preview%20-%20ThemeForest_files/34-pdbjs0a32z8f95f1v4vguzb8y6n7aqq3wmtqm3jv9c.png" alt="" height="80px" width="60px">
+          <h1>Eat good,Feel good</h1>
+          <p>Eating healthy foods not only helps to keep us physically well, but it can have a positive impact on our mood, 
+            our energy and our ability to think clearly too.</p>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6" style="background-color: blanchedalmond;">
+        <h1>FARM</h1>
+        <p><i>It is a method of farming system which primarily aimed at cultivating the land and raising crops in such a way, as to keep the soil alive and in good health by use of organic wastes (crop, animal and farm wastes, aquatic wastes) and other biological materials along with beneficial microbes (biofertilizers) to release ...
+               </i></p>
+        <button class="btn btn-outline-warning">next</button>
+
+      </div>
+      <div class="col-sm-6 hello" style="background-color: blanchedalmond;">
+        <img src="https://templates.energeticthemes.com/oganic/wp-content/uploads/sites/15/2021/01/farmer-standing-in-a-field-with-tomato-vines-MDJ6446-1024x683.jpg" alt="" height="400">
+      </div>
+  </div>
+  <div class="row">
+  <div class="col-sm-4" style="padding: 5%;">
+   <img src="file:///C:/Users/DT011/Downloads/Oganic%20-%20Organic%20Food%20Elementor%20Template%20kit%20Preview%20-%20ThemeForest_files/33-pdbkaklc26nen7x5bvhpb7tzdwu0kpthz7rj8fby0w.png" alt="">
+   <br>
+   <br>
+   <p>when they've been raised on a small-scale, sustainable farm rather than on an industrial, factory farm.</p>
+  </div>
+  <div class="col-sm-4" style="padding: 5%;">
+    <img src="file:///C:/Users/DT011/Downloads/Oganic%20-%20Organic%20Food%20Elementor%20Template%20kit%20Preview%20-%20ThemeForest_files/35-pdbjtxu54pvr7m2vg6ocowxczgt7dishcw78j5zq4g.png" alt="">
+    <br>
+    <br>
+    <p>Used to label any product that contains 100 percent organic ingredients (excluding salt and water, which are considered natural)</p>
+  </div>
+  <div class="col-sm-4" style="padding: 5%;" style="gap: 10%;">
+     <img src="file:///C:/Users/DT011/Downloads/Oganic%20-%20Organic%20Food%20Elementor%20Template%20kit%20Preview%20-%20ThemeForest_files/36-pdbjzu9o19yk3hiazqi1cfbj8jq5p47ti3myzp8r28.png" alt="">
+     <br>
+     <br>
+     <p>Organic food, ecological food, or biological food are foods and drinks produced by methods complying with the standards of organic farming. </p>
+  </div>
+  </div>
+  <div class="row roww">
+    <h1>ORGANIC MEALS</h1>
+    <div class="col-sm-4 col0" style="text-align: center;">
+       <img src="https://templates.energeticthemes.com/oganic/wp-content/uploads/sites/15/2021/01/taco-with-meat-and-vegetables-dark-background-clos-J25EB7V-800x800.jpg" alt="" height="300" width="350" style="padding: 3%;">
+       <h3><i>Taco with meat and vegetables</i></h3>
+    </div>
+    <div class="col-sm-4 col1" style="text-align: center;">
+       <img src="https://templates.energeticthemes.com/oganic/wp-content/uploads/sites/15/2021/01/sala-dwith-grilled-squids-tentacles-ATBDJNY-800x800.jpg" alt="" height="300" width="350" style="padding: 3%;">
+       <h3><i>Salad with Grilled squids</i></h3>
+    </div>
+    <div class="col-sm-4 col2" style="text-align: center;">
+        <img src="https://templates.energeticthemes.com/oganic/wp-content/uploads/sites/15/2021/01/chicken-burrito-bowl-P9559UQ-800x800.jpg" alt="" height="300" width="350" style="padding: 3%;">
+        <h3><i>Chicken burrito</i><h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 col3" style="text-align: center;">
+       <img src="https://templates.energeticthemes.com/oganic/wp-content/uploads/sites/15/2021/01/baked-salmon-fish-fillet-with-fresh-salad-top-view-4H3S2XG-800x800.jpg" alt="" height="300" width="350" style="padding: 3%;">
+       <h3><i>Baked salmon fish</i></h3>
+    </div>
+    <div class="col-sm-4 col4" style="text-align: center;">
+       <img src="https://templates.energeticthemes.com/oganic/wp-content/uploads/sites/15/2021/01/ketogenic-diet-dinner-VDA8S57-800x800.jpg" alt="" height="300" width="350" style="padding: 3%;">
+       <h3><i>Ketogenic diet dinner</i></h3>
+    </div>
+    <div class="col-sm-4 col5" style="text-align: center;">
+       <img src="https://templates.energeticthemes.com/oganic/wp-content/uploads/sites/15/2021/01/mexican-black-bean-corn-quinoa-salad-in-clay-bowl-SYKN8JY-800x800.jpg" alt="" height="300" width="350" style="padding: 3%;">
+       <h3><i>Mexican black bean corn</i></h3>
+     </div>
+  </div>
+
+
+
+    
+</body>
+</html>
